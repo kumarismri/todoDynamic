@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Josefin+Sans&display=swap');
+
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+#head-div{
+    display: flex;
+    padding-top: 80px;
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.list{
+    color: white;
+    font-size: 51px;
+    position: absolute;
+    top: 125px;
+    left: 300px;
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.task{
+    color: white;
+    font-size: 54px;
+    margin-left: -21px;
+    margin-top: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-add-btn{
+    margin-top: 30px;
+    margin-left: 650px;
+    color: blue;
+    background-color: black;
+    border: none;
+}
+
+#head2{
+    color: white;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    font-size: 38px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#noitems{
+    color: white;
+    left: 116px;
+    font-size: 30px;
+    position: relative;
+    top: 18px;
+    font-family: 'Barlow', sans-serif;
+    visibility: visible;
+}
+
+#add-list-div{
+    background: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 4px 4px 20px white;
+    position: absolute;
+    top: 280px;
+    left: 600px;
+    z-index: 1;
+    padding-top: 20px;
+    display: none;
+}
+
+#add-list{
+    color: red;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+#list-textbox{
+    border: 1px solid red;
+    width: 300px;
+    height: 35px;
+    box-shadow: 3px 3px 5px rgb(197, 196, 196);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn{
+    background: red;
+    color: white;
+    font-size: 20px;
+    width: 20%;
+    height: 35px;
+    border: 1px solid red;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+#box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lists{
+    font-family: sans-serif;
+    color: grey;
+    background-color: white;
+    border-radius: 10px;
+    height: 360px;
+    width: 250px;
+    font-size: 30px;
+    box-shadow: 2px 2px 20px white;
+    margin-top: 60px;
+    text-align: center;
+    padding-top: 5px;
+    box-sizing: content-box;
+    overflow-wrap: break-word;
+}
+
+.line{
+    background-color: black;
+    height: 1px;
+    margin-top: -22px;
+}
+
+.addIcon{
+    color: #4a89e9;
+}
+
+.deleteIcon{
+    color: red;
+    padding-right:10px;
+
+}
+
+.bothIcon{
+    margin-top: -103px;
+    margin-left: 130px;    
+}
+
+#add-task{
+    background: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 4px 4px 20px white;
+    position: absolute;
+    top: 280px;
+    left: 600px;
+    z-index: 1;
+    padding-top: 20px;
+    display: none;
+}
+
+#add-item{
+    color: red;
+    font-size: 35px;
+}
+
+#task-textbox{
+    border: 1px solid red;
+    width: 300px;
+    height: 35px;
+    box-shadow: 3px 3px 5px rgb(197, 196, 196);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#extra{
+    position: absolute;
+}
+
+.task-container{
+    color : black;
+    height: 270px;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.markDoneBtn{
+    color: white;
+    background-color: #4a89e9;
+    border-radius: 15px;
+    padding:5px;
+    margin-left: 20px;
+    border: none;
+}
+
+.markDoneBtn:focus{
+     background-color: #124798;
+}
+
+.taskListRow{
+    padding-top: 5px;
+}
